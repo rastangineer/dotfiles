@@ -1,0 +1,16 @@
+[include]
+    path = ~/.local-gitconfig
+[color]
+    ui = auto
+[alias]
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(cyan)<%an>%Creset' --abbrev-commit --date=relative
+    lg1 = log --oneline
+[core]
+    autocrlf = input
+    excludesfile = ~/.gitignore_global
+    filemode = false
+    # editor = /usr/bin/vim
+# [http]
+#     sslVerify = true
+# [url "https://github.com/"]
+#     insteadOf = git://github.com/
