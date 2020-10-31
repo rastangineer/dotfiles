@@ -42,10 +42,10 @@ zstyle ':completion:*:warnings' format 'No matches for: %d'
 zstyle ':completion:*' group-name 
 
 #Change ls colours
-LS_COLORS="ow=01;36;40" && export LS_COLORS
+# LS_COLORS="ow=01;36;40" && export LS_COLORS
 
 #make cd use the ls colours
-zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
+# zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
 
 
 
